@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>CREATE ACCOUNT</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../static/admin_hod/assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="../../static/admin_hod/assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../../static/admin_hod/assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../static/admin_hod/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../static/admin_hod/assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../../static/admin_hod/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <link rel="stylesheet" href="../../static/admin_hod/assets/vendor/libs/apex-charts/apex-charts.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../../static/admin_hod/assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../../static/admin_hod/assets/js/config.js"></script>
+  </head>
+  
+  <body>
+    <div class="container-xxl flex-grow-1 container-p-y">
+      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span></h4>
+  
+      <div class="row mb-5">
+        <!-- Banner Image -->
+        <div class="col-lg-12">
+          <img class="card-img-top img-fluid" src="../../static/admin_hod/assets/img/myimages/banner.jpg" alt="Card image cap" />
+        </div>
+      </div>
+  
+      <div class="row text-center">
+        <!-- HOD PORTAL -->
+        <div class="col-lg-4 col-md-6">
+          <a href="{% url 'hod_portal' %}" class="icon">
+            <div class="icon-box iconbox-border h-75 p-15">
+              <img class="pt-20" src="../../static/admin_hod/assets/img/myimages/pg.png" style="margin-bottom: 10px;">
+              <h4 class="icon-box-title kk-lh2 kk-bold text-theme-colored2">HOD PORTAL</h4>
+            </div>
+          </a>
+        </div>
+  
+        <!-- MESS PORTAL -->
+        <div class="col-lg-4 col-md-6">
+          <a href="{% url 'mess_portal' %}" class="icon">
+            <div class="icon-box iconbox-border h-75 p-15 mess-icon-container">
+              <img class="pt-20" src="../../static/admin_hod/assets/img/myimages/4.png" alt="MESS PORTAL Icon">
+              <h4 class="icon-box-title kk-lh2 kk-bold text-theme-colored2">MESS PORTAL</h4>
+            </div>
+          </a>
+        </div>
+  
+        <!-- ROOM PORTAL -->
+        <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+          <a href="{% url 'room_portal' %}" class="icon">
+            <div class="icon-box iconbox-border h-75 p-15">
+              <img class="pt-20" src="../../static/admin_hod/assets/img/myimages/room.png" style="margin-bottom: 10px;">
+              <h4 class="icon-box-title kk-lh2 kk-bold text-theme-colored2">ROOM PORTAL</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../../static/admin_hod/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../static/admin_hod/assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../static/admin_hod/assets/vendor/js/bootstrap.js"></script>
+    <script src="../../static/admin_hod/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../../static/admin_hod/assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="../../static/admin_hod/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+    <!-- Main JS -->
+    <script src="../../static/admin_hod/assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="../../static/admin_hod/assets/js/dashboards-analytics.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
